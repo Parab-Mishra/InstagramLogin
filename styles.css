@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 3.5em 0 3.5em 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+}
+
+.wrapper {
+    width: 100%;
+    background-color: #fafafa;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin: 3.5em 0 0 0; */
+}
+
+.login {
+    background-color: #ffffff;
+    box-shadow: 0.3px 0.3px 0.5px gray, -0.3px -0.3px 0.5px gray;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 43%;
+}
+
+.brand img {
+    width: 12em;
+    margin-top: 1.5em;
+    margin-bottom: 1.6em;
+}
+
+input {
+    background-color: #fafafa;
+    width: 80%;
+    margin: 0.3em;
+    /* box-shadow: 0.3px 0.3px 0.5px gray, -0.3px -0.3px 0.5px gray; */
+    border: 0.2px solid #c0bcbc;
+    border-radius: 3px;
+    padding: 1em 0.8em;
+    font-size: 0.7em;
+}
+
+.login-btn {
+    margin: 1em;
+    margin-bottom: 0.5;
+    padding: 0.5em;
+    color: white;
+    width: 80%;
+    border: 0.2px solid #b2dffc;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #b2dffc;
+}
+
+.line {
+    background-color: #c0bcbc;
+    height: 1.5px;
+    border: 0.5px solid #c0bcbc;
+    border-radius: 1px;
+    width: 7.5em;
+}
+
+.or-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login p {
+    color: gray;
+    margin: 0 1.3em;
+    margin-bottom: 0.8em;
+    margin-top: 0.8em;
+    padding: 0;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.fb-logo {
+    width: 1.2em;
+    margin-right: 0.4em;
+}
+
+.fb-btn {
+    display: flex;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #385185;
+    margin: 1.5em 0 1em 0;
+}
+
+.fb-btn span {
+    padding-top: 0.1em;
+    cursor: pointer;
+}
+
+.login a {
+    text-decoration: none;
+    color: rgba(var(--fe0, 0, 55, 107), 1);
+    font-size: 0.8em;
+    margin: 1em 0 2em 0;
+}
+
+.signup {
+    background-color: #ffffff;
+    box-shadow: 0.3px 0.3px 0.5px gray, -0.3px -0.3px 0.5px gray;
+    display: flex;
+    justify-content: center;
+    width: 43%;
+    margin: 1em 0;
+}
+
+.signup p {
+    font-weight: 350;
+}
+
+.signup a {
+    text-decoration: none;
+    color: rgba(var(--d69, 0, 149, 246), 1);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.text {
+    font-weight: 340;
+    width: 43%;
+    text-align: center;
+}
+
+.stores {
+    margin: 0.6em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43%;
+}
+
+.appstore,
+.playstore {
+    width: 35%;
+    cursor: pointer;
+    margin: 0.4em;
+}
+
+.mobile {
+    margin-left: 20%;
+    /* border: 5px solid blue; */
+}
+
+.mobile-cover {
+    z-index: 1;
+}
+
+.screenshot {
+    /* border: 5px solid red; */
+    position: absolute;
+    width: 15em;
+    z-index: 5;
+    margin: 6.2em 0 0 -18.95em;
+}
+
+section {
+    margin-bottom: 18px;
+}
+
+footer {
+    color: rgba(var(--f52, 142, 142, 142), 1);
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li {
+    font-size: 0.75em;
+    cursor: pointer;
+    font-weight: 400;
+    margin: 0.6em;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    font-size: 0.75em;
+    font-weight: 400;
+}
+
+.last select {
+    border: none;
+    background-color: #fafafa;
+    color: rgba(var(--f52, 142, 142, 142), 1);
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.last p {
+    margin-left: 2em;
+}
